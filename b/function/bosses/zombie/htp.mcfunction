@@ -1,2 +1,3 @@
 execute unless block ~ ~-0.1 ~ air run kill @s
-execute unless entity @e[tag=htp,distance=0.00001..0.1] run kill @s
+scoreboard players add @s time 1
+execute if score @s time matches 200.. run kill @s
