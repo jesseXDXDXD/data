@@ -4,7 +4,7 @@
   "has_precipitation": false,
   "effects": {
     "sky_color": 0,
-    "fog_color": 347472,
+    "fog_color": 339246,
     "water_color": 3724255,
     "water_fog_color": 329011,
     "grass_color": 347472,
@@ -16,32 +16,12 @@
       "offset": 2
     }
   },
-  "spawners": {
-    "ambient": [],
-    "axolotls": [],
-    "creature": [],
-    "misc": [],
-    "underground_water_creature": [],
-    "water_ambient": [],
-    "water_creature": []
-  },
+  "spawners": {},
   "spawn_costs": {},
-  "carvers": [],
+  "carvers": {},
   "features": [
-    [],
-    [],
-    [],
-    [],
     [
-      "minecraft:end_spike"
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      "minecraft:end_platform"
+      "minecraft:void_start_platform"
     ]
   ]
 }
