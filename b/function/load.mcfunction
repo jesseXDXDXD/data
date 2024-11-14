@@ -63,3 +63,4 @@ team modify enemy color red
 
 scoreboard objectives add vdvcasttemp dummy
 scoreboard objectives add teleportcasttemp dummy
+gamerule doLimitedCrafting true

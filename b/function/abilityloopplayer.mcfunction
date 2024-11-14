@@ -14,7 +14,7 @@ execute unless entity @s[tag=nha] run item replace entity @s hotbar.7 with nethe
 execute unless entity @s[tag=nha] run item replace entity @s hotbar.8 with nether_star[max_stack_size=1,item_name='"E.G.O"',food={nutrition:0,saturation:0,can_always_eat:true,eat_seconds:1000000}]
 
 #agh
-gamerule doLimitedCrafting true
+recipe take @s[tag=!adminfrfr]
 #passives
 execute if score @s passive matches 1 run function b:passives/cow/cow
 execute if score @s passive matches 2 run function b:passives/jump/jump
