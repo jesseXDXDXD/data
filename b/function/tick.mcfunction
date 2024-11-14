@@ -1,7 +1,7 @@
 tag @a[tag=!notingame] add ingame
 execute as @e[tag=freg] at @s run function b:freg/freg
 execute as @e[tag=summon,team=!enemy,team=!player,team=!blagh,team=!antiblagh,team=!spicebush] at @s run function b:summon
-
+execute as @e[type=item] at @s run function b:items
 
 execute as @e[tag=minifreg] at @s run function b:freg/minifreg
 scoreboard players reset minifregcounter counter

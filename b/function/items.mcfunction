@@ -1,0 +1,1 @@
+execute as @s[nbt={Item:{id:"minecraft:nether_star"}}] run kill @s
