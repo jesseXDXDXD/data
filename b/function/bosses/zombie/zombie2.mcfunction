@@ -1,2 +1,2 @@
-execute at @n[team=!enemy,distance=..50,tag=!notarget,tag=!adminfrfr] run summon marker ~ ~ ~ {Tags:["groundmarker"]}
-execute at @n[team=!enemy,distance=..50,tag=!notarget,tag=!adminfrfr] run summon zombie ~ ~ ~ {Invulnerable:1b,Team:"enemy",NoAI:1b,Health:10f,Tags:["zombiesummon","summon"],attributes:[{id:"minecraft:generic.max_health",base:10}]}
+execute at @n[team=!enemy,distance=..50,tag=!notarget,tag=!adminfrfr] run summon marker ~ ~ ~ {Tags:["groundmarker","summon"]}
+execute at @n[team=!enemy,distance=..50,tag=!notarget,tag=!adminfrfr] run summon zombie ~ ~-3 ~ {Invulnerable:1b,Team:"enemy",NoAI:1b,Health:10f,Tags:["zombiesummon","summon"],attributes:[{id:"minecraft:generic.max_health",base:10}]}
