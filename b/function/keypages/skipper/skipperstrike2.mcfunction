@@ -1,0 +1,13 @@
+execute rotated ~ 0 run summon creeper ^ ^50 ^4 {Invulnerable:1b,Team:"player",PersistenceRequired:1b,ExplosionRadius:0b,Tags:["skipperrocket","summon","notarget","newsummon"],CustomName:'"Dinnerbone"',attributes:[{id:"minecraft:generic.scale",base:0.5}]}
+execute rotated ~ 0 run summon creeper ^ ^60 ^8 {Invulnerable:1b,Team:"player",PersistenceRequired:1b,ExplosionRadius:0b,Tags:["skipperrocket","summon","notarget","newsummon"],CustomName:'"Dinnerbone"',attributes:[{id:"minecraft:generic.scale",base:0.5}]}
+execute rotated ~ 0 run summon creeper ^ ^70 ^12 {Invulnerable:1b,Team:"player",PersistenceRequired:1b,ExplosionRadius:0b,Tags:["skipperrocket","summon","notarget","newsummon"],CustomName:'"Dinnerbone"',attributes:[{id:"minecraft:generic.scale",base:0.5}]}
+execute rotated ~ 0 run summon creeper ^ ^80 ^16 {Invulnerable:1b,Team:"player",PersistenceRequired:1b,ExplosionRadius:0b,Tags:["skipperrocket","summon","notarget","newsummon"],CustomName:'"Dinnerbone"',attributes:[{id:"minecraft:generic.scale",base:0.5}]}
+execute rotated ~ 0 run summon creeper ^ ^90 ^20 {Invulnerable:1b,Team:"player",PersistenceRequired:1b,ExplosionRadius:0b,Tags:["skipperrocket","summon","notarget","newsummon"],CustomName:'"Dinnerbone"',attributes:[{id:"minecraft:generic.scale",base:0.5}]}
+execute rotated ~ 0 run summon creeper ^ ^100 ^22 {Invulnerable:1b,Team:"player",PersistenceRequired:1b,ExplosionRadius:0b,Tags:["skipperrocket","summon","notarget","newsummon"],CustomName:'"Dinnerbone"',attributes:[{id:"minecraft:generic.scale",base:0.5}]}
+execute rotated ~ 0 run summon creeper ^ ^110 ^24 {Invulnerable:1b,Team:"player",PersistenceRequired:1b,ExplosionRadius:0b,Tags:["skipperrocket","summon","notarget","newsummon"],CustomName:'"Dinnerbone"',attributes:[{id:"minecraft:generic.scale",base:0.5}]}
+execute rotated ~ 0 run summon creeper ^ ^120 ^26 {Invulnerable:1b,Team:"player",PersistenceRequired:1b,ExplosionRadius:0b,Tags:["skipperrocket","summon","notarget","newsummon"],CustomName:'"Dinnerbone"',attributes:[{id:"minecraft:generic.scale",base:0.5}]}
+execute rotated ~ 0 run summon creeper ^ ^130 ^28 {Invulnerable:1b,Team:"player",PersistenceRequired:1b,ExplosionRadius:0b,Tags:["skipperrocket","summon","notarget","newsummon"],CustomName:'"Dinnerbone"',attributes:[{id:"minecraft:generic.scale",base:0.5}]}
+execute rotated ~ 0 run summon creeper ^ ^140 ^30 {Invulnerable:1b,Team:"player",PersistenceRequired:1b,ExplosionRadius:0b,Tags:["skipperrocket","summon","notarget","newsummon"],CustomName:'"Dinnerbone"',attributes:[{id:"minecraft:generic.scale",base:0.5}]}
+
+
+function b:random/setowner

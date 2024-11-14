@@ -1,0 +1,1 @@
+effect give @s minecraft:slowness 3 10 true

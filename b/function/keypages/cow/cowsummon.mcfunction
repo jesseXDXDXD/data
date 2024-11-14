@@ -1,0 +1,7 @@
+#summon cow ~0.5 ~ ~ {DeathLootTable:"f",Health:1f,Tags:["summon","newsummon"],attributes:[{id:"minecraft:generic.attack_damage",base:1},{id:"minecraft:generic.max_health",base:1},{id:"minecraft:generic.safe_fall_distance",base:10},{id:"minecraft:generic.scale",base:0.25}]}
+#summon cow ~-0.5 ~ ~ {DeathLootTable:"f",Health:1f,Tags:["summon","newsummon"],attributes:[{id:"minecraft:generic.attack_damage",base:1},{id:"minecraft:generic.max_health",base:1},{id:"minecraft:generic.safe_fall_distance",base:10},{id:"minecraft:generic.scale",base:0.25}]}
+#summon cow ~ ~ ~0.5 {DeathLootTable:"f",Health:1f,Tags:["summon","newsummon"],attributes:[{id:"minecraft:generic.attack_damage",base:1},{id:"minecraft:generic.max_health",base:1},{id:"minecraft:generic.safe_fall_distance",base:10},{id:"minecraft:generic.scale",base:0.25}]}
+#summon cow ~ ~ ~-0.5 {DeathLootTable:"f",Health:1f,Tags:["summon","newsummon"],attributes:[{id:"minecraft:generic.attack_damage",base:1},{id:"minecraft:generic.max_health",base:1},{id:"minecraft:generic.safe_fall_distance",base:10},{id:"minecraft:generic.scale",base:0.25}]}
+#function b:random/setowner
+#tag @e remove newsummon
+tellraw @s {"color":"dark_red","text":"There is no ability 3."}

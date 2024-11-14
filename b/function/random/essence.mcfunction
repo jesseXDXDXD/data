@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data={essence:cow}] run scoreboard players set @s keypage 4
+execute if items entity @s weapon.mainhand minecraft:nether_star[minecraft:custom_data={essence:zombie}] run scoreboard players set @s keypage 5

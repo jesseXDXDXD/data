@@ -1,0 +1,3 @@
+execute positioned ~ ~-2 ~ unless score @s passivecd matches 1.. if entity @e[team=!player,type=!minecraft:marker,dx=0,dz=0,dy=0] run damage @n[team=!player,type=!marker] 5 minecraft:player_attack by @s
+execute positioned ~ ~-2 ~ unless score @s passivecd matches 1.. if entity @e[team=!player,type=!minecraft:marker,dx=0,dz=0,dy=0] run motion @s add 0 0.5 0
+execute positioned ~ ~-2 ~ unless score @s passivecd matches 1.. if entity @e[team=!player,type=!minecraft:marker,dx=0,dz=0,dy=0] run scoreboard players set @s passivecd 20

@@ -1,0 +1,2 @@
+execute if score @s egoability matches 1.. unless score @s egocd matches 1.. run function b:egos/bigslash/actualbigslash
+execute if score @s abilityduration matches 1.. if score @s egoabilityactive matches 1.. run function b:egos/bigslash/bigslashactive

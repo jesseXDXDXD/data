@@ -1,0 +1,4 @@
+execute unless entity @e[team=!player,tag=!notarget,type=!marker] run summon creeper ~ ~50 ~ {Invulnerable:1b,Team:"player",PersistenceRequired:1b,ExplosionRadius:0b,Tags:["skipperrocket","summon","notarget","newsummon"],CustomName:'"Dinnerbone"',attributes:[{id:"minecraft:generic.scale",base:0.5}]}
+execute at @n[team=!player,tag=!notarget,type=!marker] run summon creeper ~ ~50 ~ {Invulnerable:1b,Team:"player",PersistenceRequired:1b,ExplosionRadius:0b,Tags:["skipperrocket","summon","notarget","newsummon"],CustomName:'"Dinnerbone"',attributes:[{id:"minecraft:generic.scale",base:0.5}]}
+function b:random/setowner
+tag @e remove newsummon

@@ -1,0 +1,51 @@
+{
+    "description": "explosive armor",
+    "supported_items": "#minecraft:enchantable/armor",
+    "weight": 1,
+    "max_level": 255,
+    "min_cost": {
+      "base": 1,
+      "per_level_above_first": 1
+    },
+    "max_cost": {
+      "base": 1,
+      "per_level_above_first": 1
+    },
+    "anvil_cost": 1,
+    "slots": [
+      "armor"
+    ],
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "enchanted": "victim",
+          "affected": "victim",
+          "effect": {
+            "type": "minecraft:explode",
+            "damage_type": "minecraft:explosion",
+            "radius": {
+              "type": "minecraft:linear",
+              "base": 1,
+              "per_level_above_first": 1
+            },
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "block_interaction": "mob",
+            "small_particle": {
+              "type": "minecraft:explosion"
+            },
+            "large_particle": {
+              "type": "minecraft:explosion_emitter"
+            },
+            "sound": "minecraft:entity.generic.explode",
+            "attribute_to_user": true,
+            "create_fire": false
+          }
+        }
+      ]
+    }
+  }
+  

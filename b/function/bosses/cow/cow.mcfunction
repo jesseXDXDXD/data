@@ -1,0 +1,2 @@
+execute if score @s ability2cd matches ..0 if entity @a[distance=..40] anchored eyes positioned ^ ^ ^ run function b:bosses/cow/cowthrow
+execute if score @s ability2cd matches ..0 run scoreboard players set @s ability2cd 100

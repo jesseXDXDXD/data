@@ -1,0 +1,11 @@
+summon cow ~ ~ ~ {DeathLootTable:"f",Tags:["lifesummon","newsummon","summon"],Team:"player",Health:1f,attributes:[{id:"minecraft:generic.attack_damage",base:1},{id:"minecraft:generic.max_health",base:1}]}
+summon cow ~ ~ ~ {DeathLootTable:"f",Tags:["lifesummon","newsummon","summon"],Team:"player",Health:1f,attributes:[{id:"minecraft:generic.attack_damage",base:1},{id:"minecraft:generic.max_health",base:1}]}
+summon cow ~ ~ ~ {DeathLootTable:"f",Tags:["lifesummon","newsummon","summon"],Team:"player",Health:1f,attributes:[{id:"minecraft:generic.attack_damage",base:1},{id:"minecraft:generic.max_health",base:1}]}
+summon cow ~ ~ ~ {DeathLootTable:"f",Tags:["lifesummon","newsummon","summon"],Team:"player",Health:1f,attributes:[{id:"minecraft:generic.attack_damage",base:1},{id:"minecraft:generic.max_health",base:1}]}
+summon cow ~ ~ ~ {DeathLootTable:"f",Tags:["lifesummon","newsummon","summon"],Team:"player",Health:1f,attributes:[{id:"minecraft:generic.attack_damage",base:1},{id:"minecraft:generic.max_health",base:1}]}
+summon cow ~ ~ ~ {DeathLootTable:"f",Tags:["lifesummon","newsummon","summon"],Team:"player",Health:1f,attributes:[{id:"minecraft:generic.attack_damage",base:1},{id:"minecraft:generic.max_health",base:1}]}
+summon cow ~ ~ ~ {DeathLootTable:"f",Tags:["lifesummon","newsummon","summon"],Team:"player",Health:1f,attributes:[{id:"minecraft:generic.attack_damage",base:1},{id:"minecraft:generic.max_health",base:1}]}
+summon cow ~ ~ ~ {DeathLootTable:"f",Tags:["lifesummon","newsummon","summon"],Team:"player",Health:1f,attributes:[{id:"minecraft:generic.attack_damage",base:1},{id:"minecraft:generic.max_health",base:1}]}
+summon cow ~ ~ ~ {DeathLootTable:"f",Tags:["lifesummon","newsummon","summon"],Team:"player",Health:1f,attributes:[{id:"minecraft:generic.attack_damage",base:1},{id:"minecraft:generic.max_health",base:1}]}
+summon cow ~ ~ ~ {DeathLootTable:"f",Tags:["lifesummon","newsummon","summon"],Team:"player",Health:1f,attributes:[{id:"minecraft:generic.attack_damage",base:1},{id:"minecraft:generic.max_health",base:1}]}
+function b:random/setowner

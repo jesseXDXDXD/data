@@ -1,0 +1,35 @@
+{
+  "temperature": 0.7,
+  "downfall": 0.8,
+  "has_precipitation": true,
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 2402020,
+    "fog_color": 2402020,
+    "water_color": 12576717,
+    "water_fog_color": 10271398,
+    "grass_color": 16766208,
+    "foliage_color": 16766208
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:zombie",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [
+      "minecraft:ore_dirt"
+    ],
+    [
+      "minecraft:trees_plains",
+      "minecraft:patch_grass_forest"
+    ]
+  ]
+}

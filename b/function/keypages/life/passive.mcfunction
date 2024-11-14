@@ -1,0 +1,1 @@
+execute if score @s hp matches ..10 run effect give @s regeneration 1 0 true

@@ -1,0 +1,41 @@
+{
+    "description": "wither",
+    "supported_items": "#minecraft:swords",
+    "weight": 1,
+    "max_level": 100,
+    "min_cost": {
+      "base": 10001000,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 10001000,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 10001000,
+    "slots": ["mainhand"],
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "enchanted": "attacker",
+          "affected": "victim",
+          "effect": {
+            "type": "minecraft:apply_mob_effect",
+            "to_apply": "minecraft:wither",
+            "min_duration": 5,
+            "max_duration": 5,
+            "min_amplifier": {
+              "type": "minecraft:linear",
+              "base": 1,
+              "per_level_above_first": 1
+            },
+            "max_amplifier": {
+              "type": "minecraft:linear",
+              "base": 1,
+              "per_level_above_first": 1
+            }
+          }
+        }
+      ]
+    }
+  }
+  

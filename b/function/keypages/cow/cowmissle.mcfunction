@@ -1,0 +1,3 @@
+execute anchored eyes run summon cow ~ ~ ~ {DeathLootTable:"f",Health:10f,Tags:["summon","newsummon","explosivesummon"],CustomName:'"Explosive Cow"',attributes:[{id:"minecraft:generic.attack_damage",base:0},{id:"minecraft:generic.knockback_resistance",base:1},{id:"minecraft:generic.max_health",base:10},{id:"minecraft:generic.movement_speed",base:0.4},{id:"minecraft:generic.scale",base:0.5}]}
+function b:random/setowner
+tag @e remove newsummon

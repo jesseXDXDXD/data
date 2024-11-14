@@ -1,0 +1,1 @@
+execute if score @s egoability matches 1.. unless score @s egocd matches 1.. run function b:egos/ss/actualss

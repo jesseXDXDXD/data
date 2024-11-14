@@ -1,0 +1,1 @@
+execute positioned ~ ~-1 ~ unless entity @e[tag=skippernest,distance=..0.25] run kill @s

@@ -1,0 +1,1 @@
+execute anchored eyes positioned ^ ^ ^ run function vdv_teleportray:start_ray

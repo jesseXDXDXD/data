@@ -1,0 +1,7 @@
+execute unless entity @e[tag=cowboss,distance=..100] run scoreboard players remove @s time 1
+execute store result score @s seconds run scoreboard players get @s time
+scoreboard players operation @s seconds /= 20 number
+execute if score @s time matches ..0 run summon cow ~ ~ ~ {DeathLootTable:"f",Health:100f,Tags:["cowboss","bossguy"],CustomName:'"Cow lord"',ArmorItems:[{id:"minecraft:leather",count:1},{id:"minecraft:beef",count:1},{id:"minecraft:nether_star",count:1,components:{"minecraft:max_stack_size":1,"minecraft:item_name":'"Essence of cow"',"minecraft:lore":['"Rare drop from the cow lord"','"Lets you command the armies of the cow lord"','"Right click to use"'],"minecraft:hide_additional_tooltip":{},"minecraft:rarity":"rare","minecraft:custom_data":{essence:cow},"minecraft:enchantments":{levels:{"minecraft:mending":1},show_in_tooltip:false}}},{}],ArmorDropChances:[1.000F,1.000F,0.200F,0.085F],attributes:[{id:"minecraft:generic.max_health",base:100},{id:"minecraft:generic.movement_speed",base:0.15},{id:"minecraft:generic.scale",base:1.5}]}
+execute if score @s time matches ..0 run scoreboard players set @s time 600
+execute unless entity @e[tag=cowboss,distance=..100] if score @s time matches 1.. run data merge entity @s {text:'[{"bold":true,"italic":false,"text":"Cow boss respawning in "},{"score":{"name":"@s","objective":"seconds"}}," seconds"]'}
+execute if entity @e[tag=cowboss,distance=..100] if score @s time matches 1.. run data merge entity @s {text:'{"bold":true,"italic":false,"text":""}'}

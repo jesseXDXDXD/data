@@ -1,0 +1,6 @@
+{
+  "wild_texture": "minecraft:block/cobblestone",
+  "angry_texture": "minecraft:block/mossy_cobblestone",
+  "tame_texture": "minecraft:block/stone",
+  "biomes": "minecraft:dripstone_caves"
+}
